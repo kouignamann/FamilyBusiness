@@ -1,0 +1,72 @@
+{
+  "name": "FamilyBusiness",
+  "version": "1.0.0",
+  "authors": [
+    "Kouignamann <gu.bertran@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-bootstrap": "~0.13.4",
+    "angular-i18n": "~1.4.5",
+    "angular-sanitize": "~1.4.1",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-select": "0.13.2",
+    "angularjs-slider": "~0.1.36",
+    "bourbon": "~4.2.3",
+    "breakpoint-sass": "~2.6.1",
+    "fastclick": "~1.0.6",
+    "highcharts": "~4.2.3",
+    "momentjs": "~2.10.3",
+    "ng-table": "~0.8.3",
+    "slabText": "~2.2.0",
+    "susy": "~2.2.5",
+    "toastr": "~2.1.1",
+    "underscore": "~1.8.3"
+  },
+  "overrides": {
+    "angular": {
+      "main": "angular.min.js"
+    },
+    "angular-ui-router": {
+      "main": "release/angular-ui-router.min.js"
+    },
+    "angular-sanitize": {
+      "main": "angular-sanitize.min.js"
+    },
+    "angular-ui-select": {
+      "main": "dist/select.min.js"
+    },
+    "angular-i18n": {
+      "main": "angular-locale_fr-fr.js"
+    },
+    "jquery": {
+      "main": "dist/jquery.min.js"
+    },
+    "momentjs": {
+      "main": "min/moment.min.js"
+    },
+    "slabText": {
+      "main": "js/jquery.slabtext.min.js"
+    },
+    "angular-bootstrap": {
+      "main": "./ui-bootstrap.min.js"
+    },
+    "underscore": {
+      "main": "underscore-min.js"
+    },
+    "ng-table": {
+      "main": [
+        "./dist/ng-table.min.js",
+        "./dist/ng-table.min.css"
+      ]
+    }
+  },
+  "devDependencies": {
+    "angular-mocks": "1.5.0"
+  },
+  "resolutions": {
+    "angular": "~1.4.5"
+  }
+}
